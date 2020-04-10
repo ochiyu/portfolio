@@ -1,11 +1,32 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/profile">Profile</router-link>|
-      <router-link to="/activity">Activity</router-link>|
-      <router-link to="/link">Link</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar
+      app
+      dark
+    >
+    <router-link  to="/">
+      <a>Home</a>
+    </router-link>
+    </v-app-bar>
+
+    <v-content>
+      <HelloWorld/>
+    </v-content>
+  </v-app>
 </template>
+
+<script>
+import HelloWorld from './components/HelloWorld'
+
+export default {
+  name: 'App',
+
+  components: {
+    HelloWorld
+  },
+
+  data: () => ({
+    //
+  })
+}
+</script>
