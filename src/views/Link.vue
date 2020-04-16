@@ -1,5 +1,7 @@
 <template>
   <div class="link">
-    <h1>This is an link page</h1>
+    <div class="title">
+      <h1>Link</h1>
+    </div>
   </div>
 </template>

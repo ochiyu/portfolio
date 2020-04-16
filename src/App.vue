@@ -5,16 +5,47 @@
       dark
     >
     <router-link  to="/">
-      <a>Home</a>
+      <div class="my-2">
+        <v-btn text>Home</v-btn>
+      </div>
+    </router-link>
+    <router-link  to="/profile">
+      <div class="my-2">
+        <v-btn text>Profile</v-btn>
+      </div>
+    </router-link>
+    <router-link  to="/activity">
+      <div class="my-2">
+        <v-btn text>Activity</v-btn>
+      </div>
+    </router-link>
+    <router-link  to="/link">
+      <div class="my-2">
+        <v-btn text>Link</v-btn>
+      </div>
     </router-link>
     </v-app-bar>
+    <v-container fluid>
+      <router-view></router-view>
+    </v-container>
 
-    <v-content>
-      <vue-particles color="#dedede"></vue-particles>
-    </v-content>
   </v-app>
 </template>
-
+<style>
+.title{
+      position: absolute;
+      right: 70px;
+      top: 20%;
+      border-left: thick solid red;
+      padding-left: 10px;
+}
+h1{
+      font-size: 70px;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      font-family: 'Oswald', sans-serif;
+      }
+</style>
 <script>
 
 export default {

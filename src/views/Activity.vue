@@ -1,5 +1,7 @@
 <template>
   <div class="activity">
-    <h1>This is an activity page</h1>
+    <div class="title">
+      <h1>Activity</h1>
+      </div>
   </div>
 </template>
