@@ -33,7 +33,7 @@
 </template>
 <style>
 .title{
-      position: absolute;
+      position: fixed;
       right: 70px;
       top: 20%;
       border-left: thick solid red;
@@ -45,6 +45,9 @@ h1{
       writing-mode: vertical-rl;
       font-family: 'Oswald', sans-serif;
       }
+.main-content{
+  padding: 90px 120px 40px 120px;
+}
 </style>
 <script>
 
