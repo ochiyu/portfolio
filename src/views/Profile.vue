@@ -9,7 +9,7 @@
          </h2>
          <h3>名前</h3>落合 裕也
          <h3>学年</h3>修士２年
-         <h3>研究室</h3>落合 裕也
+         <h3>研究室</h3>新谷・大囿研究室
          <h3>研究</h3>自然言語処理
           <h2>
            スキル
@@ -31,6 +31,7 @@
           <li>ARKit</li>
           <li>Vue.js</li>
           <li>Symfony</li>
+          <li>Git</li>
           <h2>
            その他
           </h2>
@@ -40,3 +41,5 @@
        </div>
   </div>
 </template>
+<style scoped>
+</style>
